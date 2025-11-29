@@ -1,0 +1,115 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="./mmd.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <section class="levels">
+    <div class="num num1">
+      <div class="circle">1</div>
+      <p>انتخاب مبدا و مقصد</p>
+    </div>
+  <div class="border"></div>
+    <div class="num ">
+      <div class="circle">2</div>
+      <p>تأیید و احراز هویت</p>
+    </div>
+  <div class="border"></div>
+    <div class="num">
+      <div class="circle">3</div>
+      <p>پرداخت و تأیید نهایی</p>
+    </div>
+
+    <div class="border"></div>
+
+      <div class="num">
+      <div class="circle">4</div>
+      <p>دریافت تیکت یا بلیط</p>
+    </div>
+  </section>
+
+<section class="all">
+  <div class="Aboutme1">
+
+  <div class="all1">
+    <div>
+    <h3>لطفا مشخصات زیر را تکمیل نمایید  </h3>
+  </div>
+  <br><br>
+    <div class="startinputs">
+    <label>لطفا نام و نام خانوادگی خود را وارد کنید :</label><br><br>
+    <input type="text" placeholder="مثال : حسین احمدی" id="name1">
+    <p class="red hidden" id="truename"> لطفا نام و نام خانوادگی خود را به درستی وارد کنید</p><br><br>
+    <label>لطفا شماره موبایل خود را وارد کنید : </label><br><br>
+    <input type="number" placeholder="مثال : 09123456789" id="phoneNumber">
+    <p class="red hidden" id="truenumber">لطفا شماره موبایل خود را به درستی وارد کنید</p><br><br>
+    <label>لطفا آدرس ایمیل خود را وارد کنید :</label><br><br>
+    <input type="text" placeholder="مثال : jadehsabz@gmail.com"  id="email">
+    <p class="red hidden" id="truegmail">لطفا ایمیل خود را به درستی وارد کنید</p><br><br>
+  </div><br><br><br>
+   <div class="Travel">
+    <h3>لطفا مسیر مبدا و مقصد را مشخص نمایید</h3><br><br>
+    <label>لطفا استان و شهر مبدا خود را وارد کنید :</label><br><br>
+          <label>استان:</label><br>
+    <div class="flexselect">
+    <select id="ostanha" class="select1">
+      <option value="" selected>انتخاب کنید </option>
+      <option value="tehran">تهران</option>
+      <option value="golestan">گلستان</option>
+      <option value="gilan">گیلان</option>
+      <option value="mazandaran">مازندران</option>
+    </select>
+    <select class="select2" id="selectcities"></select>
+  </div>
+   </div><br><br>
+      <div class="Travel to">
+
+    <label>لطفا شهر استان مقصد خود را وارد کنید :</label><br><br>
+    <label>استان:</label><br>
+    <div class="flexselect2">
+  <select id="ostanmaghsad" class="ostanmaghsad">
+    <option value="" selected>انتخاب کنید </option>
+    <option value="tehran">تهران</option>
+    <option value="golestan">گلستان</option>
+    <option value="gilan">گیلان</option>
+    <option value="mazandaran">مازندران</option>
+  </select>
+
+  <select id="shahrmaghsad" class="shahrmaghsad"></select>
+  
+  </div>
+   </div><br><br><br>
+   <div class="buttons">
+    <button class="countinue" id="Confirmation">تأیید و ادامه</button>
+    <button class="reject">انصراف</button>
+   </div>
+   <p class="red hidden" id="Accuracy">لطفا شهر مبدا و شهر مقصد خود را انتخاب کنید!!!</p>
+  </div>
+
+</div>
+
+
+  <div class="Aboutme2">
+    <h2 style="color: blueviolet;">سامانه مسافرتی <span style="color: #5e04b1;">-راه سبز-</span></h2><br>
+    <p>سامانه مسافرتی مسیر سبز یک شرکت مستقل و نوآور در زمینه ارائه خدمات مسافرتی و گردشگری است.
+      این سامانه با هدف تسهیل و بهینه‌سازی فرآیندهای مرتبط با سفرهای داخلی و خارجی طراحی شده
+      و تلاش دارد با ارائه خدماتی جامع و متنوع، تجربه‌ای بی‌نظیر و راحت برای مسافران فراهم کند.</p>
+  </div>
+</section>
+  <div class="tikflex hidden">
+    <div class="tikflex1">
+<img src="./tik sabz.png" class="tik" id="tik">
+<p>عملیات با موفقیت انجام شد</p>
+    </div>
+  </div>
+
+<br><br>
+  <footer><p>طراح سایت : محمد امین امیرخانی</p></footer>
+<script src="./mmd.js"></script>
+</body>
+</html> 
+
+
