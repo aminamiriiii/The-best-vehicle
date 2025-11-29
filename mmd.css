@@ -1,0 +1,178 @@
+ *{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    direction: rtl;
+    background-color:white;
+}
+
+label{color: #a29b9b;}
+input{
+    width: 100%;
+    height: 35px;
+    font-size: 1rem;
+    padding: 0 10px;
+    border-radius: 5px;
+    border: 1px solid #dedede;
+}
+
+
+select {
+    appearance: none;
+    width: 100%;
+    height:35px;
+    font-size: 1rem;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #dedede;
+    cursor: pointer;
+    
+}
+
+.levels {
+    color: #bdbdbd;
+    display: flex;
+    margin: 30px ;
+    justify-content: center;
+    align-items: center;
+}
+
+.num{
+    display: flex;
+    align-items: center;
+    padding : 0 10px ;
+}
+
+.num1{
+    color: #5e04b1;
+
+}
+
+.num1 .circle {
+    background-color: #5e04b1;
+    color: white;
+}
+
+.border{
+    width: 40px;
+    height: 2px;
+    background-color: #bdbdbd;
+}
+
+
+.circle {
+    margin: 0 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    height:23px;
+    width: 23px;
+    background-color:#bdbdbd;
+    color: white;
+    border: 50%;
+} 
+
+
+.all{display: flex;}
+
+.Aboutme2{flex: 30%;}
+
+.Aboutme2 h2 {font-weight: 300;}
+
+.Aboutme2 p {
+    font-weight: 100;
+    color: #9c9c9c;
+    font-size: 1.2rem;
+}
+
+.Aboutme2 p{text-align:justify;}
+.Aboutme1 {flex: 70%;}
+.Aboutme1 .all2 {width: 100px;}
+.Aboutme1 h3 {font-weight: 300;}
+
+.Aboutme1 .all1 {
+    min-height: 800px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    margin: 10px 50px;
+    padding: 10px;}
+
+.buttons {
+    direction: ltr;
+    padding: 0 20px;
+}
+
+.buttons button {
+    height: 35px;
+    margin:0 10px;
+    padding:0 10px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    font-size: .9rem;
+    border-radius:5px;
+}
+
+.buttons button:active{
+    transform: scale(.97);
+}
+
+.buttons .countinue {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    background-color: #00c600;
+}
+
+.buttons .reject {
+    background-color: red;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+
+footer {
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding: 10px 0;
+}
+
+.flexselect {display: flex;}
+.flexselect  select {margin: 0 5px;}
+.select1{flex: 10%;}
+.select2{flex: 80%;}
+.flexselect2{display: flex;}
+.flexselect2 select {margin: 0 5px;}
+.ostanmaghsad{flex:10%;}
+.shahrmaghsad{flex: 80%;}
+
+.tik {
+    width: 100px;
+    height:100px;
+}
+
+
+.tikflex1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    background-color: white;
+} 
+
+
+.red{
+    color: red;
+    text-align: center;
+}
+
+.green {
+    color: green;
+    text-align: center;
+}
+
+.hidden{display: none;}
